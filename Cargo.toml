@@ -1,0 +1,14 @@
+[package]
+name = "Echo_Download_Assistant"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+zip = "7.1.0"
+serde = { version = "1.0", features = ["derive"] }
+egui = "0.33.3"
+eframe = "0.33.3"
+rfd = "0.14"
+reqwest = {version = "0.13.1", features = ["json", "blocking"] }
+tempfile = "3.10"
+anyhow = "1.0"
